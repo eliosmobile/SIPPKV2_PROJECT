@@ -1,0 +1,151 @@
+@import "animate.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+/* Custom styles */
+.custom-img-height {
+    height: 30vh; /* 30% of the viewport height */
+    width: 100%; /* Ensure the image covers the full width */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    filter: brightness(0.7); /* Darken the image for better text contrast */
+}
+
+.emphasized-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for emphasis */
+    font-size: 2.5rem; /* Increase font size */
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.4); /* Add a semi-transparent background to the overlay */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Custom primary color */
+    border: none; /* Remove border */
+    font-size: 1.2rem; /* Increase font size */
+    padding: 10px 20px; /* Increase padding */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+.card-title i {
+    margin-right: 10px; /* Add space between icon and text */
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+#calendar {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    #calendar {
+        max-width: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+    #calendar {
+        max-width: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #calendar {
+        max-width: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    #calendar {
+        max-width: 100vh;
+    }
+}
+
+/* Custom styles for FullCalendar */
+.fc-toolbar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.team-img-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto; /* Centers the image container */
+    border: 5px solid #fff; /* Adds a white border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a nicer effect */
+}
+
+.team-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.team-member h4 {
+    margin-top: 15px; /* Adds space between the image and the name */
+    font-size: 1.25rem; /* Adjusts the font size for the name */
+    font-weight: bold; /* Makes the name bold */
+}
+
+.team-member p {
+    font-size: 0.9rem; /* Adjusts the font size for the description */
+    color: #666; /* Makes the description text a bit lighter */
+}
+
+
+
+
+.fc-button-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.fc-button-primary:not(:disabled).fc-button-active,
+.fc-button-primary:not(:disabled):active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.fc-daygrid-event {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: #fff;
+}
+
+#eventDetails {
+    margin-top: 20px;
+}
+#eventDetails .card-header {
+    background-color: #17a2b8;
+    color: white;
+}
+#eventDetails .card-body {
+    font-size: 14px;
+}
+
+#calendar {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#eventDetails {
+    margin-top: 20px;
+}
